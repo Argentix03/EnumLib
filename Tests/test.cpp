@@ -99,7 +99,7 @@ TEST(EnumLibTest, LookupUserNamesToSidsTest) {
     // Additional checks can be added here
 }
 
-TEST(EnumLibTest, EnumerateUserRights_Administrator) {
+TEST(EnumLibTest, EnumerateUserRights) {
     // Setup - obtain a policy handle
     LSA_HANDLE PolicyHandle = NULL;
     GetLSAPolicyHandleAllAccess(L".", &PolicyHandle);
